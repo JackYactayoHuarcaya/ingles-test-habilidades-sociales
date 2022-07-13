@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(23, 3, 114, 0.726);
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    min-width:35rem
+}
+main{
+    width: 100%;
+    height: auto;
+}
+.container-proyect-ingles{
+    width: 100%;
+    min-height: 100vh;
+}
+.container-fondo-img{
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    z-index:-1;
+    object-fit: cover;
+    position: fixed;
+}
+
+/* 
+--------------respuesta------------
+*/
+.container-respuesta{
+    /* border: 1px solid #fff; */
+    position:absolute;
+    top: 28rem;
+    color: #fff;
+    font-size: 1.3rem;
+}
+.text-res{
+    display: none;
+    background-color: rgb(154, 58, 245);
+    padding: 5px;
+}
+.container-respuesta{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: 900;
+   
+}
